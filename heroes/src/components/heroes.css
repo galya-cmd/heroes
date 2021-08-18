@@ -1,4 +1,11 @@
 .heroes-cart{
-    width: 400px;
-    height: 400px;
+    width: 30%;
+    margin: 10px;
+}
+.heroes-cart img {
+    width: 100%;
+    border-radius: 15px;
+}
+.heroes-name {
+    font-weight: bold;
 }
