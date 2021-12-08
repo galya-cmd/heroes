@@ -1,4 +1,5 @@
 .heroes-cart{
+    background-color: rgb(221, 74, 29);
     width: 30%;
     margin: 10px;
 }
@@ -10,4 +11,10 @@
 }
 .heroes-name {
     font-weight: bold;
+    font-size: large;
+    padding: 10px;
+}
+.heroes-tittle{
+    text-align: center;
+    background-color: red;
 }
