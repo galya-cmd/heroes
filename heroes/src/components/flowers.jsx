@@ -3,15 +3,17 @@ import './heroes.css';
 
 
 function Flowers(props) {
+
+
     return (
         <>
-            <div className="heroes-cart">
-            <img src={props.url} alt=""/>
-            
-            <div className="heroes-name">{props.name}</div>
-            <div>{props.size}</div>
-            <div className="heroes-text">{props.text}</div>
-        </div>
+            <div className="flowers-cart">
+                <img src={props.url} alt="" />
+
+                <div className="flowers-name">{props.name}</div>
+                <div className="flowers-size">{props.size}</div>
+                <div className="flowers-text">{props.text}</div>
+            </div>
 
         </>
     )
